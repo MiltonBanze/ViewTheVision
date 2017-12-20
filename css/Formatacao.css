@@ -1,0 +1,252 @@
+/*RESET*/
+*{margin: 0; padding: 0; border: none; outline: none;}
+
+Body{
+	background-color: #fcfcfc;
+	
+}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+/*Cabecalgo*/
+#Topo{
+	width: 100%;
+	min-height: 100px;
+	float: left;
+	background-color: #fcfcfc;
+	border-width: 2px;
+	border-color: #fff;
+	
+}
+/*Main... Texto principal*/
+#Centro{
+	width: 100%;
+	min-height: 500px;
+	float: left;
+	background-color: #fcfcfc;
+	border: 1px;
+	margin-top: 14px;
+	
+}
+/*rodape*/
+#Fundo{
+	width: 100%;
+	min-height: 40px;
+	float: left;
+	background-color: #130400;
+	margin-top: 3%;
+	}
+/*menu*/
+#menu{
+	float: right;
+	position: static;
+	margin-top: 70px;
+}
+#menu li{
+	display: inline;
+	margin-right: 30px;
+}
+#menu li a{
+	color: #130400;
+	font-size: 20px;
+	padding-top: 50px;
+}
+
+#menu a:hover{
+	color: #da6709;
+}
+#Materias_Econ{
+	list-style: none;
+	font-family: 'Algerian', sans-serif;
+	font-size: 18px;
+}
+/*banner*/
+#banner {
+	float: left;
+	position: static;
+	margin-top: 30px;
+	width: 100%;
+	height: 90px;
+	background: linear-gradient(to right,#ce2e3c,#da6709);
+	color: #fff;
+	font-family: 'sylfaen', sans-serif;
+}
+/*servicos*/
+.servicos{
+	width: 30%;
+	float: left;
+	padding: 3% 1% 0 2%;
+}
+.servico{
+	width: 100%
+	background-color#fff;
+	text-align: left;
+	border-radius: 7px;
+	margin-left: 1%
+}
+.servico img{
+	border-radius: 9px 9px 0 0;
+}
+.servico img:hover{
+transform: rotate(10deg);
+}
+.inner{
+	background-color: #fff;
+}
+.inner a{
+	font-size: 1.5em;
+	color: #130400;
+	font-weight: 700;
+	font-family: 'sylfaen', sans-serif;
+}
+.inner h4{
+	font-size: 1.2em
+	margin-top: 2%;
+	font-family: 'Arial', sans-serif;
+	color: #4a4a4f;
+}
+.inner p{
+	margin-top: 6%;
+	color: #130400;
+	line-height: 1.5em
+}
+/*Newsletter*/
+.newsletter{
+	width: 90%;
+	float: left;
+	text-align: left;
+	padding: 1% 4%;
+	background-color: #130400;
+	margin-top: 1%;
+}
+/*Newsletter*/
+.newsletter h2{
+	color: #f37021;
+	font-family: 'sylfaen', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+.newsletter h3{
+	color: #f37021;
+	font-family: 'sylfaen',sans-serif;
+	font-size: 30px;
+	text-align: center;
+
+}
+.newsletter form{
+	margin-top: 2%;
+	text-align: center;
+}
+.newsletter input{
+	width: 56%;
+	height: 70px;
+	background-color: #130400;
+	border: 1px solid #4a4a4f;
+	border-radius: 7px;
+	color: #f37021;
+}
+.newsletter button{
+	width: 20%;
+	height: 70px;
+	border-radius: 7px;
+	cursor: pointer;
+	font-family: 'sylfaen', sans-serif;
+	font-size: 20px;
+
+
+}
+/*Redes Sociais*/
+#social{
+	margin-top: 5px;
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#social img{
+	width: 40px;
+	height: 40px;
+}
+#social ul li{
+	display: inline;
+	margin-right: 5px;
+}
+label[for="bt_menu"]{
+	float: right;
+	color: #000;
+	font-family: 'sylfaen'
+
+}
+@media(max-width: 375px){
+	header img{
+		text-align: center;
+		width: 100%;
+		height: 100px;
+		margin-bottom: 2px;
+
+	}
+	#menu{
+		position: static;
+		text-align: center;
+		background: linear-gradient(to right,#ce2e3c,#da6709);
+		margin-top: 0;
+
+
+	}
+	#menu li{
+		display: inline-block;
+		margin: 5px;
+	}
+	#menu li a{
+		color: #fff;
+		font-family: 'sylfaen', sans-serif;
+	}
+	#banner{
+		display: none;
+	}
+	.servicos{
+		width: 98%;
+	}
+	.newsletter h2{
+		font-size: 26px;
+	}
+	.newsletter h3{
+		font-size: 20px;
+	}
+	.newsletter input{
+		width: 100%;
+	}
+	.newsletter button{
+		width: 100%;
+		margin-top: 2%;
+		margin-bottom: 3%;
+	}
+	#social{
+		width: 50%;
+		margin-top: 50px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#social img{
+		width: 32px;
+		height: 32px;
+	}
+	#social li a{
+		display: inline;
+	}
+
+} 
+@media(max-width: 1024px){
+	#menu li{
+		margin-right: 18px;
+	}
+	header img{
+		width: 300px;
+	}
+
+
+
+
+
+
+	
